@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+h1{
+    text-align: center;
+    padding: 25px 30px;
+    color: #fff;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to right,rgb(255, 0, 81),rgb(5, 99, 206));
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 700px;
+    height: 83vh;
+    color: #fff;
+    background-color: #000000;
+    padding: 30px 40px;
+    border-radius: 10px;
+    border: 2px solid #3ebef0;
+}
+
+
+.name input{
+    border-radius: 15px;
+    border: 2px solid #3ebef0;
+    background: transparent;
+    height: 25px;
+    width: 91%;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #f6efef;
+}
+.name label{
+    margin-left: 25px;
+}
+.name input::placeholder{
+    padding-left: 10px;
+    color: #a8a6a6;
+    font-size: 10px;
+}
+.inst-detail label{
+    margin-left: 25px;
+    margin-right: 200px;
+}
+.inst-detail input{
+    border-radius: 15px;
+    border: 2px solid #3ebef0;
+    background: transparent;
+    height: 25px;
+    width: 43%;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #f6efef;
+    margin-right: 0px;
+}
+.inst-detail select{
+    border-radius: 15px;
+    border: 2px solid #3ebef0;
+    background-color:rgb(13, 1, 17);
+    height: 25px;
+    width: 45%;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #e0e0ef;
+    margin-right: 0px;
+}
+.cont-info label{
+    margin-left: 25px;
+    margin-right:233px;
+
+}
+.cont-info input{
+    border-radius: 15px;
+    border: 2px solid #3ebef0;
+    background: transparent;
+    height: 25px;
+    width: 43%;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #f6efef;
+    margin-right: 0px;
+}
+.psw label{
+    margin-left: 25px;
+}
+.psw input{
+    border-radius: 15px;
+    border: 2px solid #3ebef0;
+    background: transparent;
+    height: 25px;
+    width: 91%;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #f6efef;
+}
+button{
+    width: 40%;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 205px;
+    margin-top:10px;
+    border-radius: 40px;
+    border-width: 3px;
+    border-color: #05824e;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background:transparent;
+}
+.btn button{
+    color:#fff;
+}
+.register{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    margin-top: 12px;
+}
+.container .register a{
+    color: #fff;
+    text-decoration: none;
+}
+.container .register h5 a:hover{
+    text-decoration: underline;
+}
+/*code input{
+    border-radius: 15px;
+    border: 2px solid #464444;
+    background: transparent;
+    height: 25px;
+    width: 40%;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #f6efef;
+    margin-right: 0px;
+}
+
+.type input{
+    border-radius: 15px;
+    border: 2px solid #464444;
+    background: transparent;
+    height: 25px;
+    width: 40%;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #f6efef;
+}*/
+
+/*.contact-details{
+    width: 100%;
+    padding-left: 15px;
+}
+.contact-details input{
+    border-radius: 15px;
+    border: 2px solid #464444;
+    background: transparent;
+    color: #fff;
+    height: 25px;
+    width: 213px;
+}
+.contact-details input::placeholder{
+    padding-left: 10px;
+    color: #a8a6a6;
+    font-size: 10px;
+}
+.contact-details label{
+    margin-left: 18px;
+
+}
+.password{
+    padding-left: 10px;
+}
+.password input{
+    border-radius: 15px;
+    border: 2px solid #464444;
+    background: transparent;
+    height: 25px;
+    width:185px
+}
+.password label{
+    padding-left: 20px;
+}
+.password input::placeholder{
+        padding-left: 10px;
+        color: #a8a6a6;
+        font-size: 10px;
+}*/

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to right,rgb(255, 0, 81),rgb(5, 99, 206));
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 350px;
+    height: 60vh;
+    color: #fff;
+    background-color: #000;
+    padding: 30px 40px;
+    border-radius: 10px;
+    border: 2px solid #269ef9;
+}
+.container h1{
+    font-size: 30px;
+   text-align: center;
+   color: #fff;
+}
+.container .input-box{
+    width: 300px;
+    height: 150px;
+    background-color: blueviolet;
+    margin:30px;
+    margin-left: -15px;
+    background: transparent;
+}
+.input-box label{
+    margin-left: 15px;
+}
+.input-box input{
+    width: 100%;
+    height: 30%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border:2px solid #3ebef0;
+    border-radius: 40px;
+    color:rgb(252, 248, 248);
+    margin-top: 3px;
+    box-shadow: 0 0 2px;
+    margin-bottom: 10px;
+}
+.input-box input::placeholder{
+    padding-left: 10px;
+    color: #a2a2a2;
+}
+.input-box i{
+    position:absolute;
+    left:870px;
+    padding-top: 15px;
+    color: #a2a2a2;
+}
+
+button{
+    width: 70%;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 40px;
+    margin-top:10px;
+    border-radius: 40px;
+    border-width: 3px;
+    border-color: #05824e;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background:transparent;
+    
+    
+}
+.btn button{
+    color:#fff;
+}
+.container .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40px;
+
+}
+.container .remember-forgot label input{
+    padding:0px;
+    margin: 0;
+}
+.container .remember-forgot a{
+    font-size: 13px;
+    text-decoration: none;
+    color:#7d7676;
+
+}
+
+.container .remember-forgot a:hover{
+    text-decoration: underline;
+    color: #fffefe;
+}
+.container .register{
+    font-size: 14.5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: lighter;
+    color: #fffefe;
+}
+.container .register h5 a{
+    text-decoration: none;
+    color: #fff;
+}
+.container .register h5 a:hover{
+    text-decoration: underline;
+}
+h5{
+    text-align: center;
+}
+h6{
+    text-align: center;
+
+}
+h5 a{
+    color: #fff;
+    text-decoration: none;
+}
+h5 a:hover{
+    text-decoration: underline;
+}
+
